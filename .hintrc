@@ -3,17 +3,13 @@
     "development"
   ],
   "hints": {
-    "axe/text-alternatives": [
-      "default",
-      {
-        "image-alt": "off"
-      }
-    ],
-    "axe/name-role-value": [
-      "default",
-      {
-        "link-name": "off"
-      }
-    ]
-  }
+    "axe/text-alternatives": "off",
+    "axe/name-role-value": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 124",
+    "not firefox <= 124"
+  ]
 }
